@@ -2,7 +2,7 @@ p {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	color: #222222;
 	line-height: 1.5em;
-	max-width: 600px;
+	max-width: 500px;
 	font-size: 1em;
 }
 
@@ -32,12 +32,12 @@ a:link, a:visited {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 1em;
-	color: #d57070;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #70d5d5;
+	color: #d57070;;
 }
 
 li {
@@ -88,6 +88,7 @@ footer {
 	font-family:  "Lato", Helvetica, Arial, sans-serif;
 	font-size: 0.8em;
 	font-weight: 300;
+
 }
 
 .social {
@@ -114,7 +115,10 @@ footer {
 
 .profilepic {
 	box-shadow: 2px 2px 12px 2px	#ccc;
-	margin: 0em 0em 1em 0em;
+	margin: 0em 0em 1.5em 0em;
+	width: 300px;
+	height: 300px;
+
 }
 
 .navcontainer {
