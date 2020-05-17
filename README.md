@@ -1,4 +1,4 @@
 # elizabethustinov.github.io
 Hi! 👋
 
-currently here: elizabeth.github.io/index.html
+currently here: elizabethustinov.github.io/index.html
