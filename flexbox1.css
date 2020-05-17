@@ -2,29 +2,36 @@
   Flexbox
 ==================================== */
 
-.navcontainer {
+nav {
 	display: flex;
 	flex-direction: column;
+	align-items: baseline;
+	flex-wrap: wrap;
+
 }
 
+
 @media (min-width: 800px) {
-		.navcontainer {
+		nav ul{
 			flex-direction: row;
-			justify-content: center;
+			/* justify-content: center; */
 			width: 100%;
+
 		}
 }
 
 @media (min-width:800px) {
 	.item-1 {
 		margin-right: auto;
+
+
 		}
 }
 
 .navme {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 
@@ -32,7 +39,16 @@
 @media (min-width: 800px) {
 	.navme {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-between;
+	}
+
+	.profilepic {
+		margin-right: 0px;
+	}
+
+	#container {
+		width: 70%;
+		margin: 0 auto;
 	}
 }
 
