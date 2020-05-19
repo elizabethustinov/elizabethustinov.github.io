@@ -28,7 +28,11 @@ h3 {
 	color: #000;
 }
 
-a:link, a:visited {
+a {
+	text-decoration: none;
+}
+
+/* a:link, a:visited {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 1em;
@@ -38,7 +42,7 @@ a:link, a:visited {
 
 a:hover, a:active {
 	color: #d57070;;
-}
+} */
 
 li {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -88,6 +92,7 @@ footer {
 	font-family:  "Lato", Helvetica, Arial, sans-serif;
 	font-size: 0.8em;
 	font-weight: 300;
+	padding: 2em 0em 2em 2em;
 
 }
 
@@ -140,7 +145,25 @@ footer {
 	padding: .5em;
 }
 
+.workindex {
+	width: 95%;
+	display: flex;
+	padding: 1.7em;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 2em;
+}
 
+.workindex img {
+	width: 100%;
+}
+
+
+.workindex:hover {
+	/* transform: scale(1.1); */
+	box-shadow: 2px 2px 12px 2px	#ccc;
+
+}
 /* .item-1 {
 	font-size: 1.3em;
 }

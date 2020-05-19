@@ -9,4 +9,25 @@ $(document).ready(function() {
 		$('nav ul').removeAttr('style');
 	 }
 	});
+
+
+//   $( ".workindex:hover" ).resizable({
+//     animate: true
+//   });
+//
+//   var animate = $( ".selector" ).resizable( "option", "animate" );
+//
+// // Setter
+// $( ".workindex:hover" ).resizable( "option", "animate", true );
+//
+//
+//
+// $( ".workindex:hover" ).resizable({
+//   animateEasing: "easeOutBounce"
+// });
+// 
+// var animateEasing = $( ".workindex" ).resizable( "option", "animateEasing" );
+//
+// $( ".workindex:hover" ).resizable( "option", "animateEasing", "easeOutBounce" );
+
 });

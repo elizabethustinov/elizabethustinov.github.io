@@ -50,6 +50,22 @@ nav {
 		width: 70%;
 		margin: 0 auto;
 	}
+
+
+	.workindex {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.workindex img {
+		width: 100%;
+		padding: 1em;
+	}
+
+	.workindex a {
+		width: 100%;
+	}
+
 }
 
 /* article {
